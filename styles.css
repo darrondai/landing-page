@@ -65,3 +65,17 @@ button {
   font-size: medium;
   padding: 4px 16px;
 }
+
+.info-list {
+  list-style-type: none;
+  display: flex;
+  gap: 32px;
+}
+
+.info-item {
+  text-align: center;
+}
+
+.info-item img {
+  border: 2px solid #3882f6;
+}
