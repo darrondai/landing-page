@@ -40,3 +40,13 @@ body {
   font-weight: 1000;
   color: #f9faf8;
 }
+
+button {
+  border: none;
+  border-radius: 8px;
+  border-color: #3882f6;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: medium;
+  padding: 4px 16px;
+}
