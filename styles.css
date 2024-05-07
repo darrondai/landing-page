@@ -6,8 +6,11 @@
 }
 
 body {
-  margin: 0;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
+  /* overflow: hidden; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .header,
@@ -66,14 +69,21 @@ button {
   padding: 4px 16px;
 }
 
+.info {
+  text-align: center;
+}
+
+.info .main-text {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
 .info-list {
   list-style-type: none;
   display: flex;
+  justify-content: center;
   gap: 32px;
-}
-
-.info-item {
-  text-align: center;
 }
 
 .info-item img {
