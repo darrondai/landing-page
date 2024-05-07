@@ -40,8 +40,3 @@ body {
   display: flex;
   gap: 16px;
 }
-
-.header .link {
-  font-size: 18px;
-  color: #e5e7eb;
-}
