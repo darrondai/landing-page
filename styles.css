@@ -112,9 +112,18 @@ button {
   text-align: right;
 }
 
+.call-to-action {
+  padding: 32px;
+}
+
 .call-to-action .blue-container {
   background-color: #3882f6;
+  padding: 16px;
+  border-radius: 8px;
   color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .call-to-action button {
