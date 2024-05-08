@@ -28,6 +28,14 @@ body {
   padding-bottom: 16px;
 }
 
+.hero,
+.info,
+.quote,
+.call-to-action {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
 .header,
 .hero,
 .info,
@@ -42,7 +50,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* padding: 8px 16px; */
 }
 
 .logo {
