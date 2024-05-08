@@ -8,9 +8,10 @@
 body {
   font-family: "Roboto", sans-serif;
   /* overflow: hidden; */
-  min-height: 100vh;
+  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
+  justify-content: stretch;
 }
 
 .header,
@@ -19,6 +20,22 @@ body {
   background-color: #1f2937;
   color: #e5e7eb;
   font-size: 18px;
+}
+
+.header,
+.footer {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.header,
+.hero,
+.info,
+.quote,
+.call-to-action,
+.footer {
+  padding-left: 300px;
+  padding-right: 300px;
 }
 
 .header {
@@ -110,10 +127,6 @@ button {
   font-weight: bold;
   font-style: normal;
   text-align: right;
-}
-
-.call-to-action {
-  padding: 32px;
 }
 
 .call-to-action .blue-container {
