@@ -97,6 +97,10 @@ button {
   padding: 4px 16px;
 }
 
+.hero button {
+  margin-top: 8px;
+}
+
 .info {
   text-align: center;
 }
