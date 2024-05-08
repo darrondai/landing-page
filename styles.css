@@ -38,12 +38,16 @@ body {
 
 .header,
 .hero,
-.info,
-.quote,
 .call-to-action,
 .footer {
   padding-left: 15%;
   padding-right: 15%;
+}
+
+.info,
+.quote {
+  padding-left: 25%;
+  padding-right: 25%;
 }
 
 .header {
